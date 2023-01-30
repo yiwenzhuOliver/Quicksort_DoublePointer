@@ -6,7 +6,7 @@ const int N = 100010;
 
 int q[N];
 
-void quick_sort(int q[],int l, intr)
+void quick_sort(int q[],int l, int r)
 {
     if(l >= r)
     return;
