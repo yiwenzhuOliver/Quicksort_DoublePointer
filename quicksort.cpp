@@ -11,7 +11,7 @@ void quick_sort(int q[],int l, intr)
     if(l >= r)
     return;
 
-    int i = 1 - 1, j = r + 1, x =q[l + r >> 1];
+    int i = l - 1, j = r + 1, x =q[l + r >> 1];
     while(i < j)
     {
         do i ++; while (q[i] < x);
